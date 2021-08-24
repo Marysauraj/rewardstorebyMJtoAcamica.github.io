@@ -1,5 +1,6 @@
 {
   "homepage":" https://marysauraj.github.io/rewardstorebyMJtoAcamica.github.io/",
+  "predeploy": "npm run build && echo https://marysauraj.github.io/rewardstorebyMJtoAcamica.github.io/ > ./build/CNAME",
   "name": "store-jardim-mary",
   "version": "0.1.0",
   "private": true,
